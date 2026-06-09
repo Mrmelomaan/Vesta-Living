@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vesta Living · Merkvoorstel · Mooi Bekeken</title>
+  <meta name="description" content="Interactief merkvoorstel voor Vesta Living: branding, merkcommunicatie en positionering. Door Mooi Bekeken." />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noai, noimageai" />
+  <meta name="googlebot" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2321201b'/><text x='50' y='70' font-size='62' font-family='Georgia,serif' fill='%23fffff2' text-anchor='middle'>V</text></svg>" />
+</head>
+<body>
+  <!-- Progress bar -->
+  <div class="progress" aria-hidden="true"><span class="progress__bar" id="progressBar"></span></div>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <button class="brand" id="brandHome" aria-label="Naar voorblad">
+      <span class="brand__name">Vesta&nbsp;Living</span>
+      <span class="brand__sep">·</span>
+      <span class="brand__sub">Merkvoorstel</span>
+    </button>
+
+    <nav class="dots" id="dots" aria-label="Hoofdstukken"></nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Inhoudsopgave" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Chapter rail (sidebar / overlay) -->
+  <aside class="rail" id="rail" aria-label="Inhoudsopgave">
+    <div class="rail__head">Inhoud</div>
+    <ol class="rail__list" id="railList"></ol>
+    <div class="rail__foot">
+      <span class="rail__by">Voorstel door</span>
+      <img class="rail__logo" src="assets/logo-mooi-bekeken.png" alt="Mooi Bekeken" />
+    </div>
+  </aside>
+  <div class="rail__scrim" id="railScrim"></div>
+
+  <!-- Stage -->
+  <main class="stage-wrap">
+    <section class="stage" id="stage" tabindex="-1"></section>
+  </main>
+
+  <!-- Footer nav -->
+  <footer class="pager">
+    <button class="pager__btn pager__btn--prev" id="prevBtn">
+      <span class="pager__arrow">←</span>
+      <span class="pager__txt"><em id="prevLabel">Vorige</em></span>
+    </button>
+    <div class="pager__count"><span id="curNum">01</span><span class="pager__slash">/</span><span id="totNum">11</span></div>
+    <button class="pager__btn pager__btn--next" id="nextBtn">
+      <span class="pager__txt"><em id="nextLabel">Volgende</em></span>
+      <span class="pager__arrow">→</span>
+    </button>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
