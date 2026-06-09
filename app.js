@@ -328,7 +328,7 @@ const CHAPTERS = [
       <div class="steps block">
         <div class="step" data-reveal>
           <div class="step__no">1</div>
-          <div class="step__body"><strong>Akkoord op dit voorstel</strong><span>50% bij akkoord, 50% bij oplevering.</span></div>
+          <div class="step__body"><strong>Akkoord op dit voorstel</strong><span>70% aanbetaling, 30% eindbetaling bij oplevering.</span></div>
         </div>
         <div class="step" data-reveal>
           <div class="step__no">2</div>
@@ -375,12 +375,12 @@ const CHAPTERS = [
       <div class="price-card" data-reveal>
         <div class="price-card__top">
           <div class="price-card__k">Totale investering</div>
-          <div class="price-card__amount"><span class="price-card__cur">€</span>3.950<span class="price-card__cur">,&ndash;</span></div>
+          <div class="price-card__amount"><span class="price-card__cur">€</span>4.250<span class="price-card__cur">,&ndash;</span></div>
           <p class="price-card__note">Eén vaste prijs voor het complete merkfundament. Onderdeel A t/m E, inclusief de gefaseerde oplevering richting augustus.</p>
         </div>
         <div class="price-card__bottom">
-          <div class="price-meta"><dt>Bedrag</dt><dd>€ 3.950 excl. btw</dd></div>
-          <div class="price-meta"><dt>Betaling</dt><dd>50% bij akkoord · 50% bij oplevering</dd></div>
+          <div class="price-meta"><dt>Bedrag</dt><dd>€ 4.250 excl. btw</dd></div>
+          <div class="price-meta"><dt>Betaling</dt><dd>70% aanbetaling · 30% bij oplevering</dd></div>
           <div class="price-meta"><dt>Doorlooptijd</dt><dd>Max. 10 weken, gefaseerd</dd></div>
         </div>
       </div>
