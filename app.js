@@ -70,7 +70,7 @@ const CHAPTERS = [
             Bekijk het voorstel
             <span class="btn__circ">→</span>
           </button>
-          <small>11 hoofdstukken · klik je erdoorheen of gebruik ← →</small>
+          <small>12 hoofdstukken · klik je erdoorheen of gebruik ← →</small>
         </div>
 
         <dl class="cover__meta" data-reveal>
@@ -380,6 +380,31 @@ const CHAPTERS = [
           <div class="price-meta"><dt>Betaling</dt><dd>70% aanbetaling · 30% bij oplevering</dd></div>
           <div class="price-meta"><dt>Doorlooptijd</dt><dd>Max. 10 weken, gefaseerd</dd></div>
         </div>
+      </div>`,
+  },
+
+  /* ---------- 12 · OPTIONEEL — Webdesign & ontwikkeling ---------- */
+  {
+    id: "webdesign",
+    nav: "Optioneel · Webdesign",
+    num: "12",
+    render: () => `
+      ${eyebrow("Optioneel · Extra aanbod", "eyebrow--amber")}
+      <h2 class="title" data-reveal>Webdesign &amp; ontwikkeling</h2>
+      <p class="lead" data-reveal>
+        Wil je de website ook meteen geregeld? Dan bouwen we hem er turnkey bij, voortbouwend op de
+        sitemap en de branding uit dit voorstel.
+      </p>
+      ${kpGrid([
+        ["Volledige website", "Snel, veilig en Google-indexeerbaar. Alle pagina's ontworpen én ontwikkeld (tot 8 hoofdpagina's)."],
+        ["Live &amp; betrouwbaar", "Koppeling met je domein, snelle servers en 99,9% uptime."],
+        ["Branding doorgevoerd", "Volledige implementatie van branding, communicatie en huisstijl."],
+        ["Structuur doorgevoerd", "Volledige implementatie van sitemap, paginastructuur en content."],
+        ["1 maand gratis support", "Technische support inbegrepen na oplevering."],
+      ])}
+      <div class="addon-price" data-reveal>
+        <span class="addon-price__k">Meerprijs, bovenop de investering</span>
+        <span class="addon-price__v">+&nbsp;1.200<span class="addon-price__cur">,&ndash;</span></span>
       </div>`,
   },
 ];

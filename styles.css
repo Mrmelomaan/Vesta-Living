@@ -560,6 +560,20 @@ h2.title {
 .pager__count #curNum { color: var(--ink); }
 .pager__slash { margin: 0 5px; color: var(--ink-faint); }
 
+/* ===================== OPTIONAL ADD-ON PRICE BAR ===================== */
+.addon-price {
+  margin-top: 22px; display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 8px 18px;
+  padding: 18px 26px; border-radius: var(--r-lg);
+  background: var(--ink); color: var(--paper);
+}
+.addon-price__k { font-size: 13.5px; color: rgba(255, 255, 242, 0.72); font-weight: 500; }
+.addon-price__v {
+  font-size: clamp(30px, 5vw, 42px); font-weight: 600; letter-spacing: -0.035em;
+  line-height: 1; display: inline-flex; align-items: baseline;
+}
+.addon-price__cur { font-size: 0.5em; font-weight: 500; color: var(--amber); margin-left: 2px; }
+
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 1080px) {
   :root { --rail-w: 0px; }
