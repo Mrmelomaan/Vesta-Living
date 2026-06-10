@@ -56,6 +56,7 @@ const CHAPTERS = [
     nav: "Voorblad",
     num: "",
     render: () => `
+      <div class="cover">
       ${eyebrow("Merkvoorstel · Fase 1 · Branding")}
         <h1 class="display" data-reveal>Vesta&nbsp;Living</h1>
         <p class="lead" data-reveal>
@@ -78,7 +79,8 @@ const CHAPTERS = [
           <div><dt>Van</dt><dd>Rob Huttinga · Mooi Bekeken</dd></div>
           <div><dt>Datum</dt><dd>5 juni 2026</dd></div>
           <div><dt>Scope</dt><dd>Branding &amp; merkcommunicatie</dd></div>
-        </dl>`,
+        </dl>
+      </div>`,
   },
 
   /* ---------- 1 · AANLEIDING & DOEL ---------- */
