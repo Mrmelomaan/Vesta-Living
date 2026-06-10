@@ -375,11 +375,10 @@ const CHAPTERS = [
       <div class="price-card" data-reveal>
         <div class="price-card__top">
           <div class="price-card__k">Totale investering</div>
-          <div class="price-card__amount"><span class="price-card__cur">€</span>4.250<span class="price-card__cur">,&ndash;</span></div>
+          <div class="price-card__amount">4.250<span class="price-card__cur">,&ndash;</span></div>
           <p class="price-card__note">Eén vaste prijs voor het complete merkfundament. Onderdeel A t/m E, inclusief de gefaseerde oplevering richting augustus.</p>
         </div>
         <div class="price-card__bottom">
-          <div class="price-meta"><dt>Bedrag</dt><dd>€ 4.250 excl. btw</dd></div>
           <div class="price-meta"><dt>Betaling</dt><dd>70% aanbetaling · 30% bij oplevering</dd></div>
           <div class="price-meta"><dt>Doorlooptijd</dt><dd>Max. 10 weken, gefaseerd</dd></div>
         </div>
@@ -387,7 +386,7 @@ const CHAPTERS = [
 
       <p class="fineprint" data-reveal>
         Prijs is exclusief productiekosten (drukwerk, signage, fotografie) en eventuele software-licenties,
-        tenzij anders vermeld. De systemen &amp; automatisering (Fase 2) lopen via een apart, maandelijks traject.
+        tenzij anders vermeld.
       </p>`,
   },
 ];
