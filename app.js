@@ -120,8 +120,7 @@ const CHAPTERS = [
       </div>
 
       <p class="fineprint" data-reveal>
-        Dit voorstel betreft uitsluitend <strong>branding, merkcommunicatie en positionering (Fase 1)</strong>.
-        De systeem- en automatiseringskant volgt in een apart traject (Fase 2).
+        Dit voorstel betreft uitsluitend <strong>branding, merkcommunicatie en positionering</strong>.
       </p>`,
   },
 
