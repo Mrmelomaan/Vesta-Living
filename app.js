@@ -301,7 +301,7 @@ const CHAPTERS = [
       <div class="exclude block">
         ${[
           ["Bouw &amp; development van de website", "Apart traject, voortbouwend op de sitemap (onderdeel E)."],
-          ["Productiekosten", "Drukwerk, gevelsignage, fotografie en software-licenties."],
+          ["Productiekosten", "Drukwerk, gevelsignage en fotografie."],
           ["Andere ontwerpen", "Andere fysieke merkdragers en uitingen buiten deze scope."],
         ].map(([t, d]) => `
           <div class="exclude__row" data-reveal>
@@ -384,7 +384,7 @@ const CHAPTERS = [
       </div>
 
       <p class="fineprint" data-reveal>
-        Prijs is exclusief productiekosten (drukwerk, signage, fotografie) en eventuele software-licenties,
+        Prijs is exclusief productiekosten (drukwerk, signage, fotografie),
         tenzij anders vermeld.
       </p>`,
   },
