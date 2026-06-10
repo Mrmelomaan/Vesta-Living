@@ -76,7 +76,7 @@ const CHAPTERS = [
         <dl class="cover__meta" data-reveal>
           <div><dt>Voor</dt><dd>Rob Ranzijn &amp; Aroen Thakoeri</dd></div>
           <div><dt>Van</dt><dd>Rob Huttinga · Mooi Bekeken</dd></div>
-          <div><dt>Datum</dt><dd>5 juni 2026</dd></div>
+          <div><dt>Datum</dt><dd>10 juni 2026</dd></div>
           <div><dt>Scope</dt><dd>Branding &amp; merkcommunicatie</dd></div>
         </dl>
       </div>`,
