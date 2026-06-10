@@ -199,7 +199,7 @@ const CHAPTERS = [
     render: () => `
       ${onderdeelHead("buildings", "Onderdeel C · Hoofdstuk 05", "Fysieke merkdragers")}
       <p class="lead" data-reveal>
-        Het merk fysiek zichtbaar maken, op en rond de gebouwen.
+        Het merk fysiek zichtbaar maken, met verschillende fysieke touchpoints.
       </p>
       ${kpGrid([
         ["Visitekaartjes", "Ontwerp, drukklaar."],
