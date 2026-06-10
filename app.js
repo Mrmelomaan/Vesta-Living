@@ -60,10 +60,9 @@ const CHAPTERS = [
       ${eyebrow("Merkvoorstel · Fase 1 · Branding")}
         <h1 class="display" data-reveal>Vesta&nbsp;Living</h1>
         <p class="lead" data-reveal>
-          Eén sterk, professioneel merk dat <strong>overtuigt</strong> richting <strong>gemeentes</strong> en
-          <strong>marktpartijen</strong>, <strong>huurders</strong> rechtstreeks binnenhaalt, en
-          <strong>kopieerbaar</strong> is naar nieuwe franchisegebieden. Dit voorstel legt het
-          <strong>fundament</strong>: communicatief, visueel | fysiek en digitaal.
+          Eén sterk, professioneel merk dat overtuigt richting <strong>huurders</strong>, gemeentes en
+          marktpartijen. Kopieerbaar naar nieuwe franchisegebieden. Dit voorstel legt het fundament van
+          Vesta Living op communicatief en visueel vlak | fysiek en digitaal.
         </p>
 
         <div class="cover-cta" data-reveal>
