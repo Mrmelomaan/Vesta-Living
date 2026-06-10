@@ -372,7 +372,7 @@ const CHAPTERS = [
       <div class="price-card" data-reveal>
         <div class="price-card__top">
           <div class="price-card__k">Totale investering</div>
-          <div class="price-card__amount">4.250<span class="price-card__cur">,&ndash;</span></div>
+          <div class="price-card__amount">4.500<span class="price-card__cur">,&ndash;</span></div>
           <p class="price-card__note">Eén vaste prijs voor het complete merkfundament. Onderdeel A t/m E, inclusief de gefaseerde oplevering richting augustus.</p>
         </div>
         <div class="price-card__bottom">
