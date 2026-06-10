@@ -180,8 +180,8 @@ const CHAPTERS = [
     render: () => `
       ${onderdeelHead("brush", "Onderdeel B · Hoofdstuk 04", "Volledige branding &amp; huisstijl")}
       <p class="lead" data-reveal>
-        Het complete visuele systeem, met als kern de professionalisering van het logo. Ook gemaakt om
-        fysiek te werken: als sticker of spray op gevels en deuren.
+        Een compleet, consistent visueel systeem dat Vesta overal direct herkenbaar maakt. Ontworpen om
+        óók fysiek te werken: als sticker of spray op gevels en deuren.
       </p>
       ${kpGrid([
         ["Logo-redesign", "Schaalbaar beeldmerk. Full-colour én als stencil."],
