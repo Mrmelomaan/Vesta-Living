@@ -56,8 +56,7 @@ const CHAPTERS = [
     nav: "Voorblad",
     num: "",
     render: () => `
-      <div class="cover">
-        ${eyebrow("Merkvoorstel · Fase 1 · Branding")}
+      ${eyebrow("Merkvoorstel · Fase 1 · Branding")}
         <h1 class="display" data-reveal>Vesta&nbsp;Living</h1>
         <p class="lead" data-reveal>
           Eén sterk, professioneel merk dat <strong>overtuigt</strong> richting <strong>gemeentes</strong> en
@@ -79,8 +78,7 @@ const CHAPTERS = [
           <div><dt>Van</dt><dd>Rob Huttinga · Mooi Bekeken</dd></div>
           <div><dt>Datum</dt><dd>5 juni 2026</dd></div>
           <div><dt>Scope</dt><dd>Branding &amp; merkcommunicatie</dd></div>
-        </dl>
-      </div>`,
+        </dl>`,
   },
 
   /* ---------- 1 · AANLEIDING & DOEL ---------- */
@@ -381,12 +379,7 @@ const CHAPTERS = [
           <div class="price-meta"><dt>Betaling</dt><dd>70% aanbetaling · 30% bij oplevering</dd></div>
           <div class="price-meta"><dt>Doorlooptijd</dt><dd>Max. 10 weken, gefaseerd</dd></div>
         </div>
-      </div>
-
-      <p class="fineprint" data-reveal>
-        Prijs is exclusief productiekosten (drukwerk, signage, fotografie),
-        tenzij anders vermeld.
-      </p>`,
+      </div>`,
   },
 ];
 
