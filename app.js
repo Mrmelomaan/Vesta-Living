@@ -217,7 +217,7 @@ const CHAPTERS = [
     render: () => `
       ${onderdeelHead("share", "Onderdeel D · Hoofdstuk 06", "Social media-opzet")}
       <p class="lead" data-reveal>
-        Volledige inrichting van de social-aanwezigheid, zodat huurders Vesta makkelijk vinden.
+        Volledige inrichting van de social-aanwezigheid, zodat alle doelgroepen Vesta makkelijk vinden.
       </p>
       ${kpGrid([
         ["Accounts ingericht", "Zoals Instagram, Facebook en LinkedIn."],
@@ -225,7 +225,7 @@ const CHAPTERS = [
         ["Bio's op de doelgroep", "Per kanaal afgestemd."],
         ["Canva ready templates", "Kant-en-klare templates die je direct kunt inzetten."],
       ])}
-      ${deliver("Ingerichte kanalen + assets + templates")}`,
+      ${deliver("Ingerichte kanalen + assets + ready-to-use Canva-omgeving")}`,
   },
 
   /* ---------- 7 · ONDERDEEL E — Sitemap (was C) ---------- */
